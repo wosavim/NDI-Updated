@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="GNU GPL v3"
+[[mods]]
+modId="ndiupdated"
+version="${file.jarVersion}"
+displayName="NDIUpdated"
+authors="wosavim"
+description='''
+Bringing NoDamI to modern minecraft!
+Original mod made by ProfHug0
+All info avaliable on curseforge page
+'''
+[[dependencies.ndiupdated]]
+modId="forge"
+mandatory=true
+versionRange="[41,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ndiupdated]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19,)"
+ordering="NONE"
+side="BOTH"
